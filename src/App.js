@@ -5,7 +5,7 @@ import './App.css'
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar title="My First React App" />
       <div className="container">
         <div className="row">
           <div className="col-md-6">
