@@ -1,11 +1,21 @@
+import Navbar from './components/Navbar'
+import Card from './components/Card'
 import './App.css'
-
-let name = 'John Doe'
 
 const App = () => {
   return (
     <div>
-      <h1>Hello {name}</h1>
+      <Navbar />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <Card />
+          </div>
+          <div className="col-md-6">
+            <Card />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
