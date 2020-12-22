@@ -1,13 +1,11 @@
 import './App.css'
 
+let name = 'John Doe'
+
 const App = () => {
   return (
     <div>
-      <h1 id="myHeading">Hello World</h1>
-      <p className="myParagraph">This paragraph is awesome</p>
-      <p className="myParagraph">This paragraph is awesome</p>
-      <p className="myParagraph">This paragraph is awesome</p>
-      <button className="btn btn-primary">Click Me</button>
+      <h1>Hello {name}</h1>
     </div>
   )
 }
